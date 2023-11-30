@@ -97,7 +97,7 @@ Produtos - [
   ]
   
   Possui:
-  Tipo_de_Ropupa, Nome, Ano, Estação, Valor, Materiais, Tamanhos, Introdução, 
+  [Tipo_de_Ropupa], Estação, Nome, Ano, Valor, Materiais, Tamanhos, Introdução, 
   Descrição, Modo_de_Lavar, Imagens, Videos, Posts, Criador, Peças_Relacionadas 
 
 ( 9 Blusas, 4 Calças, 5 Macacões, 4 Saias, 1 Vestido ) => 23 Produtos
