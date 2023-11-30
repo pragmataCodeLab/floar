@@ -61,6 +61,45 @@ IX - Página 3D com roupas renderizadas em tempo real.
 
 //////////////////////////// - Contexto Lógico do Website - \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+/// usuario & auth slice
+token: "aabbccddeeff112233445566"
+usuario_aceitou_cookies = false
+usuario_novo = true
+tipo_de_usuario = "visitante" || "usuario" || "admin" || "previewer"
+ultima_data_de_acesso = "data"
+
+
+/// carrinho slice
+carrinho = {
+  produtos: [Produtos],
+  total: 0,
+}
+ultimos_produtos_carregados = {
+  produtos: [Produtos],
+  data_de_carregamento: "data" || algum tipo de data em unix sei la
+}
+
+/// theme & enviroment slice
+tema_preferido = "claro" || "escuro" || "verão" || "outono" || "inverno" || "primavera"
+linguagem_preferida = "pt-BR"
+moeda_preferida = "real"
+
+/// UI Slice
+foco_do_usuario = {
+  pagina: "home",
+  seção: 1,
+}
+
+cookie_aberto = true
+menu_aberto = false
+pesquisa_aberto = false
+carrinho_aberto = false
+detalhe_imagem_aberto = false // imagens devem ser clicaveis e abrir em uma janela grande
+detalhe_produto_aberto = false
+termos_de_servico_aberto = false
+politica_de_privacidade_aberto = false
+
+
 Objetos:
 
 Estacoes - [ Verão, Outono, Inverno, Primavera ]
@@ -103,7 +142,7 @@ Produtos - [
 ( 9 Blusas, 4 Calças, 5 Macacões, 4 Saias, 1 Vestido ) => 23 Produtos
 
 Promoções
-Produtos, Novos Valores, Introdução, Descrição, Validade
+[Produtos], Novos Valores, Introdução, Descrição, Validade
 
 
 
